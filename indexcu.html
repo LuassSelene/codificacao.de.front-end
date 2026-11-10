@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 tesoureiro(Formulários)</title>
+</head>
+<body>
+    <form action="index5.html" method="post">
+        <!--____________________________________________________________________-->
+
+        <!--PRIMEIRA FORMA DE FAZER (A MELHOR)-->
+        <label for="nomeCompleto">Insira seu Nome Completo</label> <!--É o rótulo do campo-->
+        <input type="text" id="nomeCompleto" name="nomeCompleto"> <!--É onde o usuário responde o rótulo-->
+
+        <!--SEGUNDA FORMA DE FAZER-->
+        <label>
+            E-mail
+            <input type="email" name="emaildoUser">
+        </label>
+
+        <!--____________________________________________________________________-->
+
+        <!--DATA DE NASCIMENTO--> 
+        <label for="datadenascimento">Data de Nascimento</label>
+        <input type="date" id="datadenascimento" name="datadenascimento">
+
+        <!--____________________________________________________________________-->
+
+        <!--IDADE DO USUÁRIO-->
+        <label for="idade" id="idade">Idade</label>
+        <input type="number" id="Idade" name="Idade">
+
+        <!--____________________________________________________________________-->
+        
+        <!--SENHA PARA O USUÁRIO-->
+        <label for="senha" id="senha">Senha</label>
+        <input type="password" id="Senha" name="Senha">
+
+        <!--____________________________________________________________________-->
+
+        <!--CURRRICULO FILES!!!!-->
+        <label for="Curriculo">Curriculo</label>
+        <input type="file" id="Curriculo" name="Curriculo" accept=".pdf">
+
+        <!--____________________________________________________________________-->
+
+        <!--TELEFONEEEE-->
+        <label for="Telefone">Telefone</label>
+        <input type="tel" id="Telefone" name="Telefone">
+
+        <!--____________________________________________________________________-->
+
+        <!--URL!!!!!!!!!!-->
+        <label for="URL">URL</label>
+        <input type="url" id="URL" name="URL">
+
+        <!--____________________________________________________________________-->
+
+        <!--TIME TEMPO ATWMPORAL RAUL SEIXAS AMO ELE-->
+        <label for="Time">Time mengão</label>
+        <input type="time" id="time" name="Time mengão">
+
+        <!--____________________________________________________________________-->
+
+        <!--DATETIME-LOCALL-->
+        <label for="Timedata local">Tempo local</label>
+        <input type="datetime-local" id="datetime-local" name="datetime-local">
+
+        <!--____________________________________________________________________-->
+
+        <!--MONTH/MES-->
+        <label for="MesDoAno">Mês</label>
+        <input type="month" id="MesDoAno" name="MesDoAno">
+
+        <!--____________________________________________________________________-->
+
+        <!--WEEK SEMANA-->
+        <label for="semana">Semana</label>
+        <input type="week" id="semana" name="semana">
+
+        <!--____________________________________________________________________-->
+
+        <!--CORESSSS-->
+        <label for="cores">Cor</label>
+        <input type="color" id="cores" name="cores">
+
+        <!--____________________________________________________________________-->
+
+        <!--RANGG/RANGE-->
+        <label for="alcance">Alcance</label>
+        <input type="range" id="alcance" name="alcance">
+
+        <!--____________________________________________________________________-->
+
+        <!--SEARCH PROCURAR-->
+        <label for="procurar">Procurar</label>
+        <input type="search" id="procurar" name="procurar">
+
+        <!--____________________________________________________________________-->
+
+        <!--CHECKBOX-->
+
+        <p>Quais cores você gosta?</p>
+        <label><input type="checkbox" name="Cores" value="marrom">Marrom</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="azul">Azul</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="vermelho">vermelho</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="amarelo">Amarelo</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="preto">Preto</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="Laranja">Laranja</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="Verde">Verde</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="roxo">Roxo</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="branco">Branco</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="rosa">Rosa</label>
+            <br>
+        <label>
+            <input type="checkbox" name="cores" value="siricutico">siricutico</label>
+
+        <!--____________________________________________________________________-->
+
+        <!--RADIO-->
+
+        <p>Qual o seu turno de estudo?</p>
+        <label> <input type="radio" name="manha" value="manha">Manhã</label>
+        <label> <input type="radio" name="tarde" value="tarde">Tarde</label>
+        <label> <input type="radio" name="noite" value="Noite">Noite</label>
+
+        <!--____________________________________________________________________-->
+
+        <!--SELECOES MENGÃO-->
+        
+        <label for="curso">Curso</label>
+        <select id="curso" name="curso"> 
+            <option value="">Selecione...</option>
+            <option value="informatica">Informática</option>
+            <optgroup label="Gestão">
+                <option value="adm">Administração</option>
+                <option value="contabeis">Ciencias Contábeis</option>
+            </optgroup>
+        </select>
+
+        <!--____________________________________________________________________-->
+
+        <!--LISTASSSS-->
+
+        <label for="cidade"></label>
+        <input list="cidades" id="cidades" name="cidades">
+        <datalist id="cidades"
+            <option value="Chapecó"></option>
+            <option value="Florianopólis"></option>
+            <option value="Xaxim"></option>
+        </datalist>
+
+
+
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
