@@ -1,0 +1,63 @@
+h1 {
+    color: rgb(22, 45, 95);
+}
+/*
+TIPO DE SELETORES:
+
+- Universal: Aplica o estilo a todos os elementos HTML
+tag (tipo(elemento)): aplicao estilo a todos os locais
+que tiver a mesma tag. EX: <p> <h1> <li>
+
+    - Destaque (classe): Elementos com class="destaque"
+
+    - #topo (id): Aplicado aos elementos com id="topo"
+
+    - a{target-"_blank"} (atributo): Elementos com o
+     atributo e valor indicados.
+
+    - h1, h2, h3 (agrupamento): Estilo aplicado a todas
+     as tags listadas no agrupamento.
+------------------------------------------------------
+
+DIFERENÇA DE CLASSE E ID:
+
+     CLASSE: Pode ser usada várias vezes na página
+    e um elemento pode ter várias classes.
+
+     ID: É único na página e só utilizado uma vez
+
+------------------------------------------------------
+
+COMBINADORES: 
+
+     - Descendente:
+      EX: nav a -> todos os <a> dentro de <nav>
+     (em qualquer nível)
+     
+     - Filho Direto:
+      EX: ul -> <li> que são filhos diretos de <ul>.
+
+     - Irmão Adjacente:
+      EX: h2 + p -> O <p> imediatamente após um <h2>.
+
+    - Irmãos Gerais: 
+      EX: h2 ~ p -> Todos os <p> irmãos posteriores a
+      um <h2>
+
+      EXEMPLOS APLICADOS:
+*/
+nav a {
+    background-color: chocolate;
+}
+
+ul > li {
+    color: rgb(69, 42, 15);
+}
+
+h2 + p {
+    font-size: 20px;
+}
+
+h2 ~ p {
+    font-size: 16px;
+}
